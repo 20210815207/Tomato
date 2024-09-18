@@ -1,0 +1,63 @@
+body {
+    background: url(../img/树林1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div {
+    width: 1500px;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#menu {
+    /* 初始化  取消内外边距 */
+    margin: 0;
+    padding: 0;
+    /* 设置的边框和内边距的值是包含在总宽高内的 */
+    box-sizing: border-box;
+}
+#menu a {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Fangsong;
+}
+#menu a:visited {
+    color: white;
+}
+#menu a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 80px #fff,
+                0 0 120px #fff,
+                0 0 160px #fff;
+}
+#text {
+    background-image: url(../img/高端的羊皮图纸.jpg);
+    width: 1000px;
+    margin-left: 250px;
+}
+#text div {
+    width: 1000px;
+}
+#text div div img {
+    width: 500px;
+}
+#text div p {
+    text-indent: 2em;
+    font-size: 35px;
+}
+#return:link {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+#return:visited {
+    color: darkgoldenrod;
+}
+#return:hover {
+    color: brown;
+}
